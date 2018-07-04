@@ -17,7 +17,7 @@ def predict_marks(request):
 #implement machine learning
 #stage1-read data into data frame
     import pandas as pd
-    df=pd.read_csv("first/first_app/Grade_Set.csv")
+    df=pd.read_csv("C:\Users\HP\Desktop\first\first_app\Grade_Set.csv")
 #stage 2-->>>selection
     import numpy as np
     x=df.Hours_Studied[:,np.newaxis]#independent
